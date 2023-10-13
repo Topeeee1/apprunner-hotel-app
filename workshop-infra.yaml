@@ -35,8 +35,8 @@ Transform: AWS::SecretsManager-2020-07-23
 Parameters:
   HotelName:
     Type: String
-    Default: AWS App Runner Hotel
-    Description: Enter a name for the Hotel. Default is AWS App Runner Hotel.
+    Default: Tope AWS HOTEL
+    Description: Tope AWS HOTEL Activity.
 
 Resources:
   AppRunnerHotelAppVPC:
