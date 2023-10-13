@@ -13,7 +13,7 @@ var roomsRouter = require('./routes/rooms');
 var paramsRouter = require('./routes/params');
 
 var app = express();
-
+app.timeout = 100000;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
